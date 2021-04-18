@@ -110,12 +110,12 @@ ul {
 
 #Services {
   position: relative;
-  top: 160px;
+  top: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 90px;
 }
 
 .services {
@@ -146,7 +146,7 @@ ul {
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 .img {
@@ -270,6 +270,7 @@ a.open-website:active{
     justify-content: center;
     align-items: center;
   }
+  
 
   .services-item {
     width: 70%;
@@ -309,15 +310,19 @@ a.open-website:active{
 @media only screen and (max-width: 500px) {
   header {
     padding-top: 10px;
-    height: 60px;
+    height: 50px;
     padding: 10px 10px 10px 10px;
   }
   
   ul.nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+  }
+
+  .nav-item {
+    margin-right: auto;
   }
 
   .nav-item:last-child {
@@ -398,5 +403,12 @@ a.open-website:active{
   }
 }
 
+@media only screen and (max-width: 320px) {
+  header {
+    height: 60px;
+  }
 
-
+  .nav-item {
+    margin-right: 8px;
+  }
+}
