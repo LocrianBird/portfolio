@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
   <header>
     <ul class="nav">
@@ -18,185 +20,190 @@
       <li class="nav-item"><a href="#Contact">Contact</a></li>
     </ul>
   </header>
-  <home class="hero" id="home">
-    <img src="img/bg.jpg" id="nodes"></img>
-    <div class="initials" data-aos="fade-up"
-    data-aos-duration="1000">
-        <h1>My name is Margo</h1>
-        <h1>and this is my portfolio</h1>
+  <div class="hero" id="home">
+    <img src="img/bg.jpg" id="nodes" alt="">
+    <div class="initials" data-aos="fade-up" data-aos-duration="1000">
+      <h1>My name is Margo<br> and this is my portfolio</h1>
     </div>
-  </home>
+  </div>
   <section id="About">
-    <h1 class="text-about"  data-aos="fade-down">About me</h1>
+    <h2 class="text-about" data-aos="fade-down">About me</h2>
     <div class="info-wrapper">
-      <img src="img/myphoto.JPG" alt="my photo" class="myphoto"  data-aos="fade-up">
+      <img src="img/myphoto.JPG" alt="my photo" class="myphoto" data-aos="fade-up">
       <div class="card-about" data-aos="flip-left">
-        <p>I am a Programmer. </br> Curious and hardworking girl with engineering degree in Computer Science.</br>
-          At that moment I study physics in University of Leipzig on International Physics Study Program. I am interested in programming and natural sciences, therefore I always follow news and new articles related to these domains and try to keep up with new ideas, inventions and discoveries.</p>
-      </div> 
+        <p>I am a Programmer. <br> Curious and hardworking girl with engineering degree in Computer Science.<br>
+          At that moment I study physics in University of Leipzig on International Physics Study Program. I am
+          interested in programming and natural sciences, therefore I always follow news and new articles related to
+          these domains and try to keep up with new ideas, inventions and discoveries.</p>
+      </div>
     </div>
   </section>
   <section id="Services">
-    <h1 class="text-services"  data-aos="fade-down">Skills and Services</h1>
+    <h2 class="text-services" data-aos="fade-down">Skills and Services</h2>
     <div class="service-wrapper">
       <ul class="services">
-        <li class="services-item" data-aos="fade-zoom-in"
-        data-aos-delay="100"
-        data-aos-duration="2000"
-        data-aos-offset="0">
-          <img src="img/brush.png" 
-            alt="html-icon" 
-            class="web-building item">
+        <li class="services-item" data-aos="fade-zoom-in" data-aos-delay="100" data-aos-duration="2000"
+          data-aos-offset="0">
+          <img src="img/brush.png" alt="html-icon" class="web-building item">
           <h3 class="item">Web Building</h3>
-          <h4>Building websites based on HTML/CSS with responsive interfaces. Administrated and edited several websites in WordPress. Able to work with web-design tools, such as Adobe XD and Figma. Experienced with Adobe Photoshop, Illustrator and After Effects.</h4>
+          <p class="services-desc">Building websites based on HTML/CSS with responsive interfaces. Administrated and
+            edited several websites
+            in WordPress. Able to work with web-design tools, such as Adobe XD and Figma. Experienced with Adobe
+            Photoshop, Illustrator and After Effects.</p>
         </li>
-        <li class="services-item" data-aos="fade-zoom-in"
-        data-aos-delay="200"
-        data-aos-duration="2000"
-        data-aos-offset="0">
-          <img src="img/html.png" 
-            alt="brush-icon" 
-            class="graphic-design item">
+        <li class="services-item" data-aos="fade-zoom-in" data-aos-delay="200" data-aos-duration="2000"
+          data-aos-offset="0">
+          <img src="img/html.png" alt="brush-icon" class="graphic-design item">
           <h3 class="item">Software Engineering</h3>
-          <h4>Experienced in JavaScript and Python. Developed single-page applications in ReactJS, Django and Flask. Managed data with PostgreSQL, MySQL and MongoDB.</h4>
+          <p class="services-desc">Experienced in JavaScript and Python. Developed single-page applications in ReactJS,
+            Django and Flask.
+            Managed data with PostgreSQL, MySQL and MongoDB.</p>
         </li>
-        <li class="services-item" data-aos="fade-zoom-in"
-        data-aos-delay="300"
-        data-aos-duration="2000"
-        data-aos-offset="0">
-          <img src="img/devices.png" 
-            alt="devices-icon" 
-            class="app-development item">
+        <li class="services-item" data-aos="fade-zoom-in" data-aos-delay="300" data-aos-duration="2000"
+          data-aos-offset="0">
+          <img src="img/devices.png" alt="devices-icon" class="app-development item">
           <h3 class="item">Data Science</h3>
-          <h4>Working with deep learning API such as TensorFlow and Keras. Able to work with Pandas, SciPy, Matplotlib and NumPy Python libraries.</h4>
+          <p class="services-desc">Working with deep learning API such as TensorFlow and Keras. Able to work with
+            Pandas, SciPy, Matplotlib
+            and NumPy Python libraries.</p>
         </li>
       </ul>
     </div>
   </section>
   <section id="Portfolio">
-    <h1 class="text-portfolio"  data-aos="fade-down">My Projects</h1>
+    <h2 class="text-portfolio" data-aos="fade-down">My Projects</h2>
 
-    <div class="card" data-aos="flip-left"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-left" data-aos-duration="800">
       <img src="img/card-vis.png" alt="Data Visualization Package" class="img">
       <div class="card-info">
-        <h1 class="caption">Package with Visualized Data</h1>
+        <h3 class="card-caption">Package with Visualized Data</h3>
         <div class="description">
-          <p>The package consists of a few Jupyter Notebook files with data visualized by using Matplotlib, and a few simple Python files that combine some visualized data with JS graph and charts templates from Highcharts. For the latter, frontend part is based on JustPy Framework.</p>
+          <p>The package consists of a few Jupyter Notebook files with data visualized by using Matplotlib, and a few
+            simple Python files that combine some visualized data with JS graph and charts templates from Highcharts.
+            For the latter, frontend part is based on JustPy Framework.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird/data-visualization-package" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird/data-visualization-package"
+          class="open-website">
           <div class="button">Go to the code</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-right"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-right" data-aos-duration="800">
       <img src="img/card-sqc.png" alt="Quantum Computer" class="img">
       <div class="card-info">
-        <h1 class="caption">Simulation of Quantum Computer</h1>
+        <h3 class="card-caption">Simulation of Quantum Computer</h3>
         <div class="description">
-          <p>The programming part was a simulation of a quantum computer, which was written in C++. It also presented a brand-new concept, called “quantum trees” that was based on mathematical apparatus of quantum mechanics.</p>
+          <p>The programming part was a simulation of a quantum computer, which was written in C++. It also presented a
+            brand-new concept, called “quantum trees” that was based on mathematical apparatus of quantum mechanics.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird/simulation-of-quantum-teleportation" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer"
+          href="https://github.com/LocrianBird/simulation-of-quantum-teleportation" class="open-website">
           <div class="button">Go to the code</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-left"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-left" data-aos-duration="800">
       <img src="img/card-excel.png" alt="Excel" class="img">
       <div class="card-info">
-        <h1 class="caption">Excel made on pure JavaScript</h1>
+        <h3 class="card-caption">Excel made on pure JavaScript</h3>
         <div class="description">
-          <p>The Excel App was made as a part of the "JavaScript for Seniors" course. The SPA was built fully on pure JavaScript with its own "React" and "Redux" libraries. The functionality is simplified but still replicates that of the real Excel from Microsoft. Deployed on Surge.</p>
+          <p>The Excel App was made as a part of the "JavaScript for Seniors" course. The SPA was built fully on pure
+            JavaScript with its own "React" and "Redux" libraries. The functionality is simplified but still replicates
+            that of the real Excel from Microsoft. Deployed on Surge.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="http://excelmyversion.surge.sh/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="http://excelmyversion.surge.sh/" class="open-website">
           <div class="button">Go to the App</div>
         </a>
       </div>
     </div>
-    
-    <div class="card" data-aos="flip-right"
-    data-aos-duration="800">
+
+    <div class="card" data-aos="flip-right" data-aos-duration="800">
       <img src="img/card-bettertube.png" alt="BetterTube" class="img">
       <div class="card-info">
-        <h1 class="caption">Youtube, but better</h1>
+        <h3 class="card-caption">Youtube, but better</h3>
         <div class="description">
-          <p>BetterTube app is in developement process right now. It uses Django for backend and ReactJS for frontend. All the content of BetterTube is exctracted by using Youtube API. Built with Google Cloud Platform.</p>
+          <p>BetterTube app is in developement process right now. It uses Django for backend and ReactJS for frontend.
+            All the content of BetterTube is exctracted by using Youtube API. Built with Google Cloud Platform.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird/BetterTube" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird/BetterTube"
+          class="open-website">
           <div class="button">Go to the Code</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-left"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-left" data-aos-duration="800">
       <img src="img/card-mountain.png" alt="Mountain Website" class="img">
       <div class="card-info">
-        <h1 class="caption">Conquering Everest Page</h1>
+        <h3 class="card-caption">Conquering Everest Page</h3>
         <div class="description">
-          <p>Static website made as a promo page for the Conquering Everest company. It has an adaptive UI. Deployed on Netlify.</p>
+          <p>Static website made as a promo page for the Conquering Everest company. It has an adaptive UI. Deployed on
+            Netlify.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://awesome-stonebraker-cb2240.netlify.app/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://awesome-stonebraker-cb2240.netlify.app/"
+          class="open-website">
           <div class="button">Go to the page</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-right"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-right" data-aos-duration="800">
       <img src="img/card-batman.png" alt="Batman Promo" class="img">
       <div class="card-info">
-        <h1 class="caption">The Batman (2021)</h1>
+        <h3 class="card-caption">The Batman (2021)</h3>
         <div class="description">
-          <p>Static promo page for the upcoming movie "The Batman" with responsive UI. Made for russian website "КиноПульс". Deployed on Netlify.</p>
+          <p>Static promo page for the upcoming movie "The Batman" with responsive UI. Made for russian website
+            "КиноПульс". Deployed on Netlify.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://vigorous-galileo-126a31.netlify.app/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://vigorous-galileo-126a31.netlify.app/"
+          class="open-website">
           <div class="button">Go to the page</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-left"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-left" data-aos-duration="800">
       <img src="img/card-spacex.png" alt="SpaceX Promo" class="img">
       <div class="card-info">
-        <h1 class="caption">SpaceX Falcon Heavy</h1>
+        <h3 class="card-caption">SpaceX Falcon Heavy</h3>
         <div class="description">
-          <p>This static website was made as a promo page for the SpaceX Falcon Heavy rocket. It uses Animation On Scroll plug-in and video background. Deployed on Netlify.</p>
+          <p>This static website was made as a promo page for the SpaceX Falcon Heavy rocket. It uses Animation On
+            Scroll plug-in and video background. Deployed on Netlify.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://thirsty-wilson-a8113f.netlify.app/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://thirsty-wilson-a8113f.netlify.app/"
+          class="open-website">
           <div class="button">Go to the page</div>
         </a>
       </div>
     </div>
 
-    <div class="card" data-aos="flip-right"
-    data-aos-duration="800">
+    <div class="card" data-aos="flip-right" data-aos-duration="800">
       <img src="img/card-twity.png" alt="Twity App" class="img">
       <div class="card-info">
-        <h1 class="caption">Mini Social Network Twity</h1>
+        <h3 class="card-caption">Mini Social Network Twity</h3>
         <div class="description">
-          <p>The Twity app was made as a part of the "Advanced Bootcamp" course. The SPA was built with ReactJS, Redux and Node.js. Database management is provided by MongoDB and cloud database service MongoDB Atlas. Deployed on Heroku.</p>
+          <p>The Twity app was made as a part of the "Advanced Bootcamp" course. The SPA was built with ReactJS, Redux
+            and Node.js. Database management is provided by MongoDB and cloud database service MongoDB Atlas. Deployed
+            on Heroku.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://twity-client-mp.herokuapp.com/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://twity-client-mp.herokuapp.com/" class="open-website">
           <div class="button">Go to the App</div>
         </a>
       </div>
     </div>
-      
-    <div class="card" data-aos="flip-left"
-      data-aos-duration="800">
+
+    <div class="card" data-aos="flip-left" data-aos-duration="800">
       <img src="img/card-volcanoes.png" alt="Volcanoes" class="img">
       <div class="card-info">
-        <h1 class="caption">Map with volcanoes</h1>
+        <h3 class="card-caption">Map with volcanoes</h3>
         <div class="description">
-          <p>The app is written in Python. To create a basemap and other layers such as the population layer, the Folium library was used. Data managed with Pandas.</p>
+          <p>The app is written in Python. To create a basemap and other layers such as the population layer, the Folium
+            library was used. Data managed with Pandas.</p>
         </div>
-        <a target="_blank" rel="noopener noreferrer" href="https://unruffled-pasteur-fb5da7.netlify.app/" class="open-website" >
+        <a target="_blank" rel="noopener noreferrer" href="https://unruffled-pasteur-fb5da7.netlify.app/"
+          class="open-website">
           <div class="button">Go to the Page</div>
         </a>
       </div>
@@ -204,10 +211,9 @@
 
   </section>
   <section id="Contact">
-    <h1 class="text-contact"  data-aos="fade-down">Contact</h1>
+    <h2 class="text-contact" data-aos="fade-down">Contact</h2>
     <div class="wrapper-contact">
-      <div class="contact-info"  data-aos="flip-left"
-      data-aos-duration="800">
+      <div class="contact-info" data-aos="flip-left" data-aos-duration="800">
         <ul class="contact-information">
           <li>Marharyta Podliian</li>
           <li>Arno-Nitzsche strasse 40</li>
@@ -219,23 +225,23 @@
           </li>
         </ul>
       </div>
-      <div class="contact-pages"  data-aos="flip-left"
-      data-aos-duration="800">
+      <div class="contact-pages" data-aos="flip-left" data-aos-duration="800">
         <ul class="contact-page-icons">
           <li class="icon-text">
-            <img src="img/facebook.png" alt="facebook_icon" width="35px" height="35px">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100001757651525">Facebook</a>
+            <img src="img/facebook.png" alt="facebook_icon" width="35" height="35">
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://www.facebook.com/profile.php?id=100001757651525">Facebook</a>
           </li>
           <li class="icon-text">
-            <img src="img/vk.png" alt="vk_icon" width="35px" height="35px">
+            <img src="img/vk.png" alt="vk_icon" width="35" height="35">
             <a target="_blank" rel="noopener noreferrer" href="https://vk.com/mc_anaplian">VKontakte</a>
           </li>
           <li class="icon-text">
-            <img src="img/github.png" alt="github_icon" width="35px" height="35px">
+            <img src="img/github.png" alt="github_icon" width="35" height="35">
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/LocrianBird">Github</a>
           </li>
           <li class="icon-text mail">
-            <img src="img/mail.png" alt="mail_icon" width="35px" height="35px">
+            <img src="img/mail.png" alt="mail_icon" width="35" height="35">
             <p>mkanareika@gmail.com</p>
           </li>
         </ul>
@@ -247,4 +253,5 @@
     AOS.init();
   </script>
 </body>
+
 </html>
